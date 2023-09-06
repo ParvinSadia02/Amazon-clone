@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second">Bangladesh</p>
+            </div>
+        </div>
+
+        <div class="nav-search">
+            <select class="serach-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="language border">
+            <div class="language-img">
+                <img src="https://img.freepik.com/premium-vector/vector-usa-flag_1001513-9.jpg"/>
+            </div>
+            <p>EN</p>
+        </div>
+
+        <div class="nav-singin border">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
+        </div>
+
+        <div class="nav-return border">
+            <p><span>Return</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-all border" id="open_nav_sidebar">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops ">
+            <p class="border">Today's Deals</p>
+            <p class="border">Customer Service</p>
+            <p class="border">Registry</p>
+            <p class="border">Gift Cards</p>
+            <p class="border">Sell</p>
+        </div>
+        <div class="panel-deals border">
+            Shop great deals now
+        </div>
+    </div>
+          <!-- sidebar menu -->
+    <div class="sidebar-container" id="sidebar-container">
+        <div class="sidebar-left-part">
+             <div class="sidebar-top">
+                <i class="fa solid fa-circle-user"></i>
+                <h2>Hello, <span class="sign-in">sign in</span></h2>
+             </div>
+             <div class="sidebar-wrap">
+                <div class="sidebar-item">
+                    <h2>Trending</h2>
+                    <p>Best Sellers</p>
+                    <p>New Realeses</p>
+                    <p>Movers and Shakers</p>
+                 </div>
+                 <div class="sidebar-item">
+                    <h2>Digital Content & Devices</h2>
+                    <p>Amazon Music</p>
+                    <p>Kindle E-readers & Books</p>
+                    <p>Amazon Appstore</p>
+                 </div>
+                 <div class="sidebar-item">
+                    <h2>Shop By Department</h2>
+                    <p>Electronics</p>
+                    <p>Computers</p>
+                    <p>Smart Home</p>
+                    <p>Arts & Crafts</p>
+                 </div>
+                 <div class="sidebar-item">
+                    <h2>Programs & Features</h2>
+                    <p>Gift Cards</p>
+                    <p>Shop By Interest</p>
+                    <p>Amazon Live</p>
+                    <p>International Shopping</p>
+                 </div>
+                 <div class="sidebar-item">
+                    <h2>Help & Settings</h2>
+                    <p>Your Account</p>
+                    <p><i class="fa-solid fa-globe"></i> English</p>
+                    <p>United States</p>
+                    <p>Customer Service</p>
+                    <p>Sing in</p>
+                 </div>
+             </div>
+             
+        </div>
+        <button id="sidebar-close">
+            <i class="fa solid fa-xmark"></i>
+        </button>
+    </div>
+   </header>
+
+   <section>
+    <div class="hero-section">
+        <div class="image-list">
+            <div class="image-item">
+                <img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg"/>
+            </div>
+            <div class="image-item">
+                <img src="https://m.media-amazon.com/images/I/71U-Q+N7PXL._SX3000_.jpg"/>
+            </div>
+            <div class="image-item">
+                <img src="https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg"/>
+            </div>
+            <div class="image-item">
+                <img src="https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg"/>
+            </div>
+            <div class="image-item">
+                <img src="https://m.media-amazon.com/images/I/71QRxZvKnGL._SX3000_.jpg"/>
+            </div>
+            <div class="image-item">
+                <img src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg"/>
+            </div>
+        </div>
+        <div class="img-btn-container">
+            <button class="slider-btn" id="slide-btn-left"><i class="fa solid fa-chevron-left"></i></button>
+            <button class="slider-btn" id="slide-btn-right"><i class="fa solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+   </section>
+<main class="main">
+   <div class="shop-section">
+      <div class="box1 box">
+      <div class="box-content">
+        <h2>Fashion & Style</h2>
+        <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+        <p>See more</p>
+      </div>
+    </div>
+      <div class="box2 box">
+        <div class="box-content">
+            <h2>Health & Personal care</h2>
+            <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+            <p>See more</p>
+          </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+            <h2>Home Decore</h2>
+            <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+            <p>See more</p>
+          </div>
+      </div>
+      <div class="box4 box">
+        <div class="box-content">
+            <h2>Devices & Electronics</h2>
+            <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+            <p>See more</p>
+          </div>
+      </div>
+      <div class="box5 box">
+        <div class="box-content">
+          <h2>Beauty picks</h2>
+          <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+          <p>See more</p>
+        </div>
+      </div>
+        <div class="box5 box">
+          <div class="box-content">
+              <h2>Pet Care</h2>
+              <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+              <p>See more</p>
+            </div>
+        </div>
+        <div class="box7 box">
+          <div class="box-content">
+              <h2>New Arrival in Toys</h2>
+              <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+              <p>See more</p>
+            </div>
+        </div>
+        <div class="box8 box">
+          <div class="box-content">
+              <h2>Discover Fashion Treans</h2>
+              <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+              <p>See more</p>
+            </div>
+        </div>
+   </div>
+</main>
+   <footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+    <div class="foot-panel2">
+        <ul>
+            <p>Get to Know Us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Amazon</a>
+            <a>Investor Relations</a>
+            <a>Amazon Devices</a>
+            <a>Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Get to Know Us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Amazon</a>
+            <a>Investor Relations</a>
+            <a>Amazon Devices</a>
+            <a>Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Get to Know Us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Amazon</a>
+            <a>Investor Relations</a>
+            <a>Amazon Devices</a>
+            <a>Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Get to Know Us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Amazon</a>
+            <a>Investor Relations</a>
+            <a>Amazon Devices</a>
+            <a>Amazon Science</a>
+        </ul>
+    </div>
+    <div class="foot-panel3">
+        <div class="logo"></div>
+    </div>
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Condition of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ads privacy choices</a>
+        </div>
+        <div class="copyright">
+            © 1996-2023, Amazon.com, Inc. or its affiliates
+        </div>
+    </div>
+
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
